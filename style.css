@@ -1,0 +1,97 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  position: relative;
+  background: linear-gradient(to bottom right, #029aff, #007dfc);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:16px;
+  padding: 2em;
+  margin: 0;
+  
+}
+
+header {
+  box-sizing: border-box;
+  position: relative;
+  width: calc(100%-4em);
+  
+}
+
+.logo {
+  box-sizing: border-box;
+  margin-top: 2%;
+  position: relative;
+  width: 200px;
+  margin-left:50%;
+  left: -100px;
+}
+
+.formulario-login {
+  box-sizing: border-box;
+  position:relative;
+  margin-top: 5%; 
+  width: calc(100%-4em);
+  padding: 10%;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 5%;
+  display: block;
+  border: 0;
+  border-bottom: 1px solid white;
+  background: transparent;
+  vertical-align: middle;
+}
+
+::placeholder {
+  color: white;
+}
+
+.botao-cheio {
+    box-sizing: border-box;
+    display:inline-block;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #fff;
+    padding: 3%; 
+    font-weight: 600;
+    width: 50%;
+    margin-right:-4px;
+    background-color: #fff;
+    color: #3897f0;
+    font-size: 16px;
+}
+
+
+.signup {
+  box-sizing: border-box;
+  display:inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 3%; 
+  margin-right: -4px;
+  font-weight: 600;
+  width: 50%;
+  text-align: center;
+}
+
+.formulario-login__grupo {
+  position:relative;
+}
+
+.formulario-login__grupo a {
+  position:absolute;
+  right:0;
+  top:0;
+  text-decoration:none;
+  color:#fff;
+  opacity: 0.5;
+  font-size: 12px;
+  
+}

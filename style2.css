@@ -1,0 +1,94 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to bottom right, #029aff, #007dfc);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  margin: 4% 3%;
+}
+
+.header__signup {
+ 
+  color: white;
+  display: inline;
+  font-size: 18px;
+  }
+
+.links {
+  padding: 0;
+  padding: 1em;
+}
+
+.links li {
+  display: inline-block;
+  padding:0.2em;
+  margin-right: -4px; 
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.links__botao-vazio {
+  padding: 1em 1em;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.links a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.formulario-login {
+    margin: 10% 10%;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 5%;
+  display: block;
+  border: 0;
+  border-bottom: 1px solid white;
+  background: transparent;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: white;
+}
+
+
+  .botao-cheio {
+    display: block;
+    margin: 3em auto; 
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #fff;
+    padding: 3%; 
+    font-size: 16px;
+    font-weight: 600;
+    width: 80%;
+    background-color: #fff;
+    color: #3897f0;
+  }
+  
+footer {
+  font-size: 13px;
+  text-align: center;
+  padding: 1em;
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+
